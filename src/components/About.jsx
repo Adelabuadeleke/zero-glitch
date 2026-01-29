@@ -27,9 +27,10 @@ function About() {
       </button>
      </article>
 
-     <div>
-      <img src="" alt="" />
-      <img src="" alt="" />
+     <div className='about_img'>
+      <img src="../../User.png" alt="" />
+      <img src="../../shape 3.png" alt="" />
+
      </div>
     </section>
   )
