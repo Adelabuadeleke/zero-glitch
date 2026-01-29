@@ -1,0 +1,61 @@
+header {
+  background: url("../assets/zero_glitch_header_bg.jpg") center no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* container styles */
+.zero__glitch_container {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  flex: 1;
+}
+
+.zero__glitch_inner {
+  text-align: center;
+}
+
+.zero__glitch_inner > small {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 26.86px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.zero__glitch_inner > h1 {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 92.92px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 81.3px;
+}
+
+.zero__glitch_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zero__glitch_button > button {
+  border: none;
+  color: #222;
+  background: #fff;
+  border-radius: 30px;
+  padding: 22.5px 72px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 12.93px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}

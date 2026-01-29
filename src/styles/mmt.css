@@ -1,0 +1,15 @@
+section.mmt {
+  min-height: 100vh;
+  background:
+    url("../../public/ellipse_mmt_bg.png"),
+    url("../../public/ellipse_mmt_bg_2.png"),
+    url("../../public/zero_glitch_logo.png"),
+    radial-gradient(at 50% 50%, #5dcb825a 0, #0000 48%);
+  background-size: 70%, 30%, 10%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  padding: 300px 0px;
+}
+
+/* backdrop-filter: blur(500px) */
