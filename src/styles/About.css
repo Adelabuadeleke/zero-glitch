@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   color: #fff;
-  padding: 200px;
+  padding: 200px 100px;
 }
 
 .about__zero_glitch > article {
@@ -37,4 +37,25 @@ button.learn_more {
   letter-spacing: 0%;
   padding: 22.5px 72px;
   border-radius: 30px;
+}
+
+/* image positioning */
+.about_img {
+  position: relative;
+  width: 50%;
+}
+
+.about_img > img:nth-child(1) {
+  width: 400px;
+  /* max-width: 400px; */
+  height: auto;
+  position: absolute;
+  /* left: 50%; */
+}
+
+.about_img > img:nth-child(2) {
+  position: absolute;
+  right: 15%;
+  bottom: 0%;
+  /* z-index: 3; */
 }
