@@ -1,0 +1,41 @@
+.contract__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 150px;
+}
+
+.contract__section_img {
+  border: 3px solid #0e1d13;
+  height: 420px;
+  width: 420px;
+  border-radius: 16px;
+  background: radial-gradient(
+    64.47% 59.65% at 76.5% 45.59%,
+    #243229 0%,
+    #040705 100%
+  );
+}
+
+.contract__section_content {
+  color: #fff;
+  display: flex;
+}
+
+.contract__section_content div {
+  display: flex;
+  align-items: flex-start;
+}
+
+.contract__section_content div img {
+  margin-right: 10px;
+}
+
+.contract__section_content,
+.contract__section_img {
+  width: 45%;
+}
+
+.contract__section_content > p {
+  max-width: 320px;
+}

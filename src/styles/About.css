@@ -1,0 +1,40 @@
+.about__zero_glitch {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 200px;
+}
+
+.about__zero_glitch > article {
+  width: 50%;
+  max-width: 462px;
+}
+
+.about__zero_glitch > article > h2 {
+  font-family: "Poppin" s;
+  font-weight: 600;
+  font-style: "SemiBold";
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 58px;
+}
+
+.about__zero_glitch > article > p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  margin-bottom: 40px;
+}
+
+button.learn_more {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 12.93px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding: 22.5px 72px;
+  border-radius: 30px;
+}
